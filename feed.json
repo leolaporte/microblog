@@ -9,8 +9,8 @@
 			{
 				"id": "http://leo.micro.blog/2025/02/14/this-video-is-the-best/",
 				
-				"content_html": "<p>This video is the best overview I’ve seen for how LLMs work by one of the co-founders of OpenAI, Andrej Karpathy.</p>\n<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>\n<div class='embed-container'><iframe src='https://www.youtube.com/embed/YouTube' frameborder='0' allowfullscreen></iframe></div>\n<p>I know it’s 3.5 hours long, but it’s time well spent.</p>\n",
-				"content_text": "This video is the best overview I’ve seen for how LLMs work by one of the co-founders of OpenAI, Andrej Karpathy.\n\n{{< yt YouTube 7xTGNNLPyMI >}}\n\nI know it’s 3.5 hours long, but it’s time well spent. \n",
+				"content_html": "<p>This video is the best overview I’ve seen for how LLMs work by one of the co-founders of OpenAI, Andrej Karpathy.</p>\n<p><a href=\"https://youtu.be/7xTGNNLPyMI?si=3gIzJSISOeGi8kEQ\">youtu.be/7xTGNNLPy&hellip;</a></p>\n<p>I know it’s 3.5 hours long, but it’s time well spent.</p>\n",
+				"content_text": "This video is the best overview I’ve seen for how LLMs work by one of the co-founders of OpenAI, Andrej Karpathy.\n\n[youtu.be/7xTGNNLPy...](https://youtu.be/7xTGNNLPyMI?si=3gIzJSISOeGi8kEQ)\n\nI know it’s 3.5 hours long, but it’s time well spent. \n",
 				"date_published": "2025-02-14T10:34:44-08:00",
 				"url": "https://leo.fm/2025/02/14/this-video-is-the-best/"
 			},
