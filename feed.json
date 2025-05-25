@@ -7,10 +7,18 @@
 	"items": [
 		
 			{
+				"id": "http://leo.micro.blog/2025/05/25/test-posting-this-from-obsidian/",
+				
+				"content_html": "<p>Test posting this from Obsidian&hellip;</p>\n<blockquote>\n<p>[!quote] You don’t build strength by avoiding discomfort. You build it by seeking it.</p>\n</blockquote>\n",
+				"content_text": "Test posting this from Obsidian...\n\n> [!quote] You don’t build strength by avoiding discomfort. You build it by seeking it. \n\n",
+				"date_published": "2025-05-25T12:08:23-07:00",
+				"url": "https://leo.fm/2025/05/25/test-posting-this-from-obsidian/"
+			},
+			{
 				"id": "http://leo.micro.blog/2025/05/13/rosy-is-watching/",
 				
 				"content_html": "<p>Rosy is watching.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Rosy is watching. \n\n<img src=\"uploads/2025/b1a87c0cb0.jpg\" width=\"588\" height=\"600\" alt=\"\">\n",
+				"content_text": "Rosy is watching. \n\n<img src=\"uploads/2025/b1a87c0cb0.jpg\" width=\"588\" height=\"600\" alt=\"a small black cat sits at the top of the stairs glaring at you\">\n",
 				"date_published": "2025-05-13T09:25:07-07:00",
 				"url": "https://leo.fm/2025/05/13/rosy-is-watching/",
 				"tags": ["Photos"]
@@ -44,7 +52,7 @@
 				"id": "http://leo.micro.blog/2025/04/16/my-very-own-action-figure/",
 				"title": "My Very Own Action Figure",
 				"content_html": "<!-- raw HTML omitted -->\n",
-				"content_text": "<img src=\"uploads/2025/8c3a6ef846.png\" alt=\"Podcaster action figure with broadcast ready gear - ipod included\">\n",
+				"content_text": "<img src=\"https://cdn.uploads.micro.blog/871/2025/8c3a6ef846.png\" alt=\"Podcaster action figure with broadcast ready gear - ipod included\">\n",
 				"date_published": "2025-04-16T11:21:40-07:00",
 				"url": "https://leo.fm/2025/04/16/my-very-own-action-figure/",
 				"tags": ["Photos","TWiT","AI"]
