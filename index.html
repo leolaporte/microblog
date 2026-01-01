@@ -25,232 +25,30 @@
 	  <div class="h-entry">
 		
 
-		<a href="https://leo.fm/2025/12/08/titleadvent-of-code-day-trash/" class="u-url"><time class="dt-published" datetime="2025-12-08 15:39:35 -0800">Dec 8, 2025</time></a>
+		<a href="https://leo.fm/2025/12/28/and-just-to-prove-claude/" class="u-url"><time class="dt-published" datetime="2025-12-28 19:47:51 -0800">Dec 28, 2025</time></a>
 
 		<div class="e-content">
-			 <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>table { border-collapse:collapse; }
-caption.t-above { caption-side: top; }
-caption.t-bottom { caption-side: bottom; }
-td, th { vertical-align:top;  }
-th.org-right  { text-align: center;  }
-th.org-left   { text-align: center;   }
-th.org-center { text-align: center; }
-td.org-right  { text-align: right;  }
-td.org-left   { text-align: left;   }
-td.org-center { text-align: center; }
-dt { font-weight: bold; }
-.footpara { display: inline; }
-.footdef  { margin-bottom: 1em; }
-.figure { padding: 1em; }
-.figure p { text-align: center; }
-.equation-container {
-display: table;
-text-align: center;
-width: 100%;
-}
-.equation {
-vertical-align: middle;
-}
-.equation-label {
-display: table-cell;
-text-align: right;
-vertical-align: middle;
-}
-.inlinetask {
-padding: 10px;
-border: 2px solid gray;
-margin: 10px;
-background: #ffffcc;
-}
-#org-div-home-and-up
-{ text-align: right; font-size: 70%; white-space: nowrap; }
-textarea { overflow-x: auto; }
-.linenr { font-size: smaller }
-.code-highlighted { background-color: #ffff00; }
-.org-info-js_info-navigation { border-style: none; }
-#org-info-js_console-label
-{ font-size: 10px; font-weight: bold; white-space: nowrap; }
-.org-info-js_search-highlight
-{ background-color: #ffff00; color: #000000; font-weight: bold; }
-.org-svg { }
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>;; &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-
-;; Prologue code for setup - same every day
-;; &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-</p>
-<p>(defpackage :aoc.2025.day06
-(:use :cl :alexandria :iterate)      ; no prefix for these libraries
-(:local-nicknames                    ; short prefixes for these
-(:re :cl-ppcre)                     ; regex
-(:5a :fiveam)                       ; test framework
-(:sr :serapeum)                     ; CL extensions
-(:tr :trivia)))                     ; pattern matching</p>
-<p>(in-package :aoc.2025.day06)</p>
-<p>(setf 5a:<em>run-test-when-defined</em> t)  ; test as we go
-(setf 5a:<em>verbose-failures</em> t)       ; show failing expression
-(sr:toggle-pretty-print-hash-table)  ; automatic pretty print for hashes
-(declaim (optimize (debug 3)))       ; max debugging info
-;; (declaim (optimize (speed 3))     ; max speed if needed</p>
-<p>(defparameter <em>data-file</em> &ldquo;~/cl/AOC/2025/Day06/input.txt&rdquo;
-&ldquo;Downloaded from the AoC problem set&rdquo;)
-<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<pre><code>(iter (for row below (1- rows))
-  (for row-of-nums = (sr:words (nth row input))) ; chop it up first
-  (iter (for col below cols)
-    (setf (aref digits col)
-          (push (parse-integer (nth col row-of-nums)) ; the number
-                (aref digits col)))))       ; that column's list
+			 <p>And just to prove Claude Code really can do some interesting things, I just used it to add the ability to post to here directly from Emacs. It referred to several Micro.blog posts and set it up in one shot.</p>
 
-;; return array of lists of integers by column and list of operators
-(values digits (sr:tokens (lastcar input)))))
-</code></pre>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<pre><code>;; now go through each column
-(iter (for col below (length digits))
-  (summing
-    ;; apply the apropriate operand
-    (ecase (char (nth col operators) 0)
-      (#\+ (apply #'+ (aref digits col)))
-      (#\* (apply #'* (aref digits col))))))))
-</code></pre>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<pre><code>;; use op-string to determine column start and end
-(iter (for i below (length op-string))
-  (when (not (char= #\space (char op-string i)))
-    (push i column-starts)))        ; push column start
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://leo.fm/2025/12/28/thank-you-claude/">Thank you, Claude!</a></h1>
+		
 
-(reverse column-starts)))
-</code></pre>
-<p>;; print the operator start list for <em>example</em>
-(format t &ldquo;Ops starts for <em>example</em>: ~a~%~%&rdquo; (opstarts <em>example</em>))</p>
-<p>;; compare the input to the operators (well just the first 70 characters)
-(format t &ldquo;First 70 chars of input: ~%~a~%~a~%~a~%~a~%~a~%&rdquo;
-(subseq (first (uiop:read-file-lines <em>data-file</em>)) 0 70)
-(subseq (second (uiop:read-file-lines <em>data-file</em>)) 0 70)
-(subseq (third (uiop:read-file-lines <em>data-file</em>)) 0 70)        (subseq (fourth (uiop:read-file-lines <em>data-file</em>)) 0 70)
-(subseq (nth 4 (uiop:read-file-lines <em>data-file</em>)) 0 70))
-<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<pre><code>;; use the operators to determine column starts
-(iter (for i below (length operators))
-  (when (not (char= #\space (char operators i))) ; it's an operand
-    (push i column-starts))) ; save the location of the operand
-(setf column-starts (reverse column-starts))
+		<a href="https://leo.fm/2025/12/28/thank-you-claude/" class="u-url"><time class="dt-published" datetime="2025-12-28 10:18:45 -0800">Dec 28, 2025</time></a>
 
-;; now fill the 2d array GRID with numbers by column groups
-(let ((grid (make-array (list rows (length column-starts))
-                        :element-type 'list
-                        :initial-element nil)))
-  (iter (for line in input)
-    (for row :from 0)
-    (iter (for (start . rest) on column-starts)
-      (for group :from 0)
-      (setf (aref grid row group)
-            (push (subseq line start (first rest))
-                  (aref grid row group)))))
-  grid)))
-</code></pre>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<pre><code>(setf numbers (remove nil numbers)) ; the line of spaces at the end is nil
-(ecase (char operator-string 0)
-  (#\+ (apply #'+ numbers))
-  (#\* (apply #'* numbers)))))
-</code></pre>
-<p>(5a:test process-cols-test
-(5a:is (= (process-cols &lsquo;(&ldquo;123 &quot;
-&quot; 45 &quot;
-&quot;  6 &quot;
-&ldquo;*   &ldquo;)) (* 1 24 356)))
-(5a:is (= (process-cols &lsquo;(&ldquo;328 &quot;
-&ldquo;64  &quot;
-&ldquo;98  &quot;
-&ldquo;+   &ldquo;)) (+ 369 248 8)))
-(5a:is (= (process-cols &lsquo;(&rdquo; 51 &quot;
-&ldquo;387 &quot;
-&ldquo;215 &quot;
-&ldquo;*   &ldquo;)) (* 32 581 175)))
-(5a:is (= (process-cols &lsquo;(&ldquo;64 &quot;
-&ldquo;23 &quot;
-&ldquo;314&rdquo;
-&ldquo;+  &ldquo;)) (+ 623 431 4))))</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<pre><code>;; process each number string by adding digits column by column
-(iter (for column in column-list)
-  (summing (process-cols column)))))
-</code></pre>
-<p>(5a:test day06-2-test
-(5a:is (= 3263827 (day06-2 <em>example</em>))))
-<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>(time (format t &ldquo;The answer to AOC 2025 Day 6 Part 2 is ~a~%&rdquo;
-(day06-2 (uiop:read-file-lines <em>data-file</em>))))
-<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+		<div class="e-content">
+			 <p>Trigger warning: I am going to say something nice about AI.</p>
+<p>I am blown away by what <a href="https://claude.com/product/claude-code">Claude Code</a> can do, and not just in writing code but in all kinds of system configuration tasks.</p>
+<p>This month, I&rsquo;ve used Claude Code (the $20/month version) to clean up and enhance my emacs configuration, adding a complete org-babel literate coding capability and creating a list of all my custom keybindings - something I&rsquo;ve been meaning to do for ages.</p>
+<p>=&gt; <a href="https://github.com/leolaporte/emacs">github.com/leolaport&hellip;</a> - take a look at CLAUDE.md and keybindings.md for an example of what Claude can do. It&rsquo;s far more organized than I am</p>
+<p>I also used it to configure the Sway window manager for a new laptop. I am new to Sway and the waybar but Claude is apparently an old pro. Incrementally, with Claude&rsquo;s help, I was able to make it better and better until it&rsquo;s the best Linux environment I&rsquo;ve ever used - fully tailored to my exact specifications.</p>
+<p>=&gt; <a href="https://github.com/leolaporte/swayconfig">github.com/leolaport&hellip;</a></p>
+<p>I keep wanting to type &ldquo;thank you, Claude!&rdquo; but I know that&rsquo;s just a waste of CPU cycles.</p>
+<p>It&rsquo;s nice that they&rsquo;ve doubled my token quota through the end of the year. I&rsquo;ve got lots more little things to do that I&rsquo;ve put off for years.</p>
 
 		</div>
 	  </div>
@@ -295,18 +93,6 @@ textarea { overflow-x: auto; }
 
 <p><a href="https://youtu.be/IqYWypExkoA">Salt Hank Rules the Sandwich World - NY Times</a></p>
 <p>It&rsquo;s so worth watching, but beware, you <em>will</em> want to get in line for Salt Hank&rsquo;s.</p>
-
-		</div>
-	  </div>
-	
-	  <div class="h-entry">
-		
-
-		<a href="https://leo.fm/2025/08/13/the-limitless-ai-is-always/" class="u-url"><time class="dt-published" datetime="2025-08-13 12:14:45 -0800">Aug 13, 2025</time></a>
-
-		<div class="e-content">
-			 <p>The <a href="https://www.limitless.ai/">Limitless</a> AI is always listening.</p>
-<!-- raw HTML omitted -->
 
 		</div>
 	  </div>
@@ -660,12 +446,12 @@ textarea { overflow-x: auto; }
 <p>“He wants to be on the show.”</p>
 <p>Thus began a quarter-century love fest with one of my childhood heroes. And a chance to be immortalized in the magazine that taught me everything I know about modern culture. Well, the culture of the 60’s, anyway.</p>
 <p>From the upcoming <a href="https://www.dc.com/mad">MAD Magazine #42</a>…(It’s a best-of so I guess it’s “bucket list ✔️ed again.”)</p>
-<p><a href="https://leo.fm/uploads/2025/media.png" 
+<p><a href="https://cdn.uploads.micro.blog/871/2025/media.png" 
    class="glightbox"
    data-gallery="7cf88367f1b867c6b11bc575d951cba1"
    
 >
-  <img src ="https://leo.fm/uploads/2025/media.png" 
+  <img src ="https://cdn.uploads.micro.blog/871/2025/media.png" 
        loading="lazy"
        decoding="async"
        style="border-radius: 5px; max-width: 100%"
