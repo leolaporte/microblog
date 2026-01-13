@@ -7,6 +7,30 @@
 	"items": [
 		
 			{
+				"id": "http://leo.micro.blog/2026/01/12/uncharted-territory/",
+				"title": "Uncharted Territory",
+				"content_html": "<p>I just vibe coded an entire TUI RSS reader in a morning.</p>\n<p><a href=\"https://github.com/leolaporte/rss-reader\">github.com/leolaport&hellip;</a></p>\n<p>It&rsquo;s hard to describe the awe I felt watching Claude Code write this in Rust. We\nare in uncharted territory.</p>\n",
+				"content_text": "I just vibe coded an entire TUI RSS reader in a morning.\n\n[github.com/leolaport...](https://github.com/leolaporte/rss-reader)\n\nIt's hard to describe the awe I felt watching Claude Code write this in Rust. We\nare in uncharted territory.\n",
+				"date_published": "2026-01-12T19:13:13-08:00",
+				"url": "https://leo.fm/2026/01/12/uncharted-territory/"
+			},
+			{
+				"id": "http://leo.micro.blog/2026/01/04/the-arc-of-the-moral/",
+				
+				"content_html": "<blockquote>\n<p>&ldquo;The arc of the moral universe is long, but it bends toward justice.&rdquo;</p>\n</blockquote>\n<p>Words to remember even if, right now, the universe seems to be bending toward evil and chaos. I want to ignore the horrors of the global stage and focus on the local. What else can I do except to register my opposition and move on? I feel helpless. Lisa and I will go to the protests, again. We will vote in November. But I feel helpless in the face of this unchecked and corrupt government.</p>\n",
+				"content_text": "> \"The arc of the moral universe is long, but it bends toward justice.\"\n\nWords to remember even if, right now, the universe seems to be bending toward evil and chaos. I want to ignore the horrors of the global stage and focus on the local. What else can I do except to register my opposition and move on? I feel helpless. Lisa and I will go to the protests, again. We will vote in November. But I feel helpless in the face of this unchecked and corrupt government.\n",
+				"date_published": "2026-01-04T07:48:35-08:00",
+				"url": "https://leo.fm/2026/01/04/the-arc-of-the-moral/"
+			},
+			{
+				"id": "http://leo.micro.blog/2026/01/01/rip-stewart-cheifet-he-was/",
+				
+				"content_html": "<p>RIP Stewart Cheifet. He was an inspiration to all of us who stood on his shoulders.</p>\n<p><a href=\"https://twit.tv/shows/triangulation/episodes/114\">twit.tv/shows/tri&hellip;</a></p>\n",
+				"content_text": "RIP Stewart Cheifet. He was an inspiration to all of us who stood on his shoulders. \n\n[twit.tv/shows/tri...](https://twit.tv/shows/triangulation/episodes/114)\n\n",
+				"date_published": "2026-01-01T11:12:13-08:00",
+				"url": "https://leo.fm/2026/01/01/rip-stewart-cheifet-he-was/"
+			},
+			{
 				"id": "http://leo.micro.blog/2025/12/28/and-just-to-prove-claude/",
 				
 				"content_html": "<p>And just to prove Claude Code really can do some interesting things, I just used it to add the ability to post to here directly from Emacs. It referred to several Micro.blog posts and set it up in one shot.</p>\n",
@@ -43,7 +67,7 @@
 				"id": "http://leo.micro.blog/2025/07/22/beecomputer-acquired-by-amazon-oh/",
 				"title": "Bee Acquired by Amazon? Oh dear!",
 				"content_html": "<p>From a <a href=\"https://www.bee.computer/\">Bee.computer</a> founder on <a href=\"https://www.linkedin.com/posts/activity-7353453923795378176-Kf8L/?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAACTy6oBdeEEm229Y6me5HmxP1-IY-twCuc\">Linked In</a>:</p>\n<!-- raw HTML omitted -->\n<p>I guess I always knew this was a possibility, but I&rsquo;m very disappointed. I&rsquo;ve immediately deleted my Bee account and data. I pray they do, in fact, delete the data. There&rsquo;s a huge amount of private information in my Bee data &ndash; essentially everything I&rsquo;ve done and said for the past six months &ndash; and I really don&rsquo;t want to give it to Amazon, regardless of their assurances.</p>\n<p>This is a nice exit for the Bee team, and I&rsquo;m happy for them, but I&rsquo;m sad that this great idea is now part of the evil empire.</p>\n<p>I also apologize to anyone who bought the Bee on my recommendation. I should have known better.</p>\n",
-				"content_text": "From a [Bee.computer](https://www.bee.computer/) founder on [Linked In](https://www.linkedin.com/posts/activity-7353453923795378176-Kf8L/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAACTy6oBdeEEm229Y6me5HmxP1-IY-twCuc):\n\n<img src=\"uploads/2025/3fa7c48cf1.png\" alt=\"Bee.computer announces it has been acquired by Amazon.com\">\n\n\nI guess I always knew this was a possibility, but I'm very disappointed. I've immediately deleted my Bee account and data. I pray they do, in fact, delete the data. There's a huge amount of private information in my Bee data -- essentially everything I've done and said for the past six months -- and I really don't want to give it to Amazon, regardless of their assurances.\n \nThis is a nice exit for the Bee team, and I'm happy for them, but I'm sad that this great idea is now part of the evil empire.\n\nI also apologize to anyone who bought the Bee on my recommendation. I should have known better.\n",
+				"content_text": "From a [Bee.computer](https://www.bee.computer/) founder on [Linked In](https://www.linkedin.com/posts/activity-7353453923795378176-Kf8L/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAACTy6oBdeEEm229Y6me5HmxP1-IY-twCuc):\n\n<img src=\"https://cdn.uploads.micro.blog/871/2025/3fa7c48cf1.png\" alt=\"Bee.computer announces it has been acquired by Amazon.com\">\n\n\nI guess I always knew this was a possibility, but I'm very disappointed. I've immediately deleted my Bee account and data. I pray they do, in fact, delete the data. There's a huge amount of private information in my Bee data -- essentially everything I've done and said for the past six months -- and I really don't want to give it to Amazon, regardless of their assurances.\n \nThis is a nice exit for the Bee team, and I'm happy for them, but I'm sad that this great idea is now part of the evil empire.\n\nI also apologize to anyone who bought the Bee on my recommendation. I should have known better.\n",
 				"date_published": "2025-07-22T13:15:45-08:00",
 				"url": "https://leo.fm/2025/07/22/beecomputer-acquired-by-amazon-oh/",
 				"tags": ["Photos"]
