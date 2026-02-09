@@ -7,6 +7,14 @@
 	"items": [
 		
 			{
+				"id": "http://leo.micro.blog/2026/02/08/watching-the-superbowl-while-waiting/",
+				
+				"content_html": "<p>Watching the Superbowl while waiting for the Hellman&rsquo;s ad (and my son&rsquo;s half-second appearance in the background) and vibe coding a TUI to handle all the systemd services on my system. I was able to push it to Github faster than the Patriots could lose the game.</p>\n",
+				"content_text": "Watching the Superbowl while waiting for the Hellman's ad (and my son's half-second appearance in the background) and vibe coding a TUI to handle all the systemd services on my system. I was able to push it to Github faster than the Patriots could lose the game. \n",
+				"date_published": "2026-02-08T19:13:47-08:00",
+				"url": "https://leo.fm/2026/02/08/watching-the-superbowl-while-waiting/"
+			},
+			{
 				"id": "http://leo.micro.blog/2026/02/03/who-knew-the-metaverse-was/",
 				
 				"content_html": "<p>Who knew the metaverse was text based all along?</p>\n",
