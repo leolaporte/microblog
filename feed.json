@@ -7,12 +7,21 @@
 	"items": [
 		
 			{
-				"id": "http://leo.micro.blog/2026/02/08/watching-the-superbowl-while-waiting/",
+				"id": "http://leo.micro.blog/2026/02/12/its-so-unsettling-watching-our/",
 				
-				"content_html": "<p>Watching the Superbowl while waiting for the Hellman&rsquo;s ad (and my son&rsquo;s half-second appearance in the background) and vibe coding a TUI to handle all the systemd services on my system. I was able to push it to Github faster than the Patriots could lose the game.</p>\n",
-				"content_text": "Watching the Superbowl while waiting for the Hellman's ad (and my son's half-second appearance in the background) and vibe coding a TUI to handle all the systemd services on my system. I was able to push it to Github faster than the Patriots could lose the game. \n",
+				"content_html": "<p>It&rsquo;s so unsettling watching our 250 year-old democracy decay into dictatorship while the most disruptive technology since steam power is evolving at superhuman speed. It&rsquo;s like watching a locomotive barrel headlong into a tornado. I have a bad feeling about this.</p>\n",
+				"content_text": "It's so unsettling watching our 250 year-old democracy decay into dictatorship while the most disruptive technology since steam power is evolving at superhuman speed. It's like watching a locomotive barrel headlong into a tornado. I have a bad feeling about this. \n",
+				"date_published": "2026-02-12T08:06:28-08:00",
+				"url": "https://leo.fm/2026/02/12/its-so-unsettling-watching-our/"
+			},
+			{
+				"id": "http://leo.micro.blog/2026/02/08/watching-the-superbowl-while-waiting/",
+				"title": ",Services",
+				"content_html": "<p>Watching the Superbowl while waiting for the Hellman&rsquo;s ad (and my son&rsquo;s half-second appearance in the background) and vibe coding a TUI to handle all the systemd services on my system. I was able to push it to Github faster than the Patriots could lose the game.</p>\n<p><a href=\"https://github.com/leolaporte/comma-services\">github.com/leolaport&hellip;</a> (I&rsquo;ve started naming of all my command line apps with a comma prefix per <a href=\"https://rhodesmill.org/brandon/2009/commands-with-comma/\">Brandon Rhodes</a>).</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Watching the Superbowl while waiting for the Hellman's ad (and my son's half-second appearance in the background) and vibe coding a TUI to handle all the systemd services on my system. I was able to push it to Github faster than the Patriots could lose the game. \n\n[github.com/leolaport...](https://github.com/leolaporte/comma-services) (I've started naming of all my command line apps with a comma prefix per [Brandon Rhodes](https://rhodesmill.org/brandon/2009/commands-with-comma/)).\n\n<img src=\"uploads/2026/henry-hellmans.png\">\n",
 				"date_published": "2026-02-08T19:13:47-08:00",
-				"url": "https://leo.fm/2026/02/08/watching-the-superbowl-while-waiting/"
+				"url": "https://leo.fm/2026/02/08/watching-the-superbowl-while-waiting/",
+				"tags": ["Photos","Tech","Coding","AI","salt_hank"]
 			},
 			{
 				"id": "http://leo.micro.blog/2026/02/03/who-knew-the-metaverse-was/",
