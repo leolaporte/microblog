@@ -7,6 +7,14 @@
 	"items": [
 		
 			{
+				"id": "http://leo.micro.blog/2026/02/21/after-a-couple-of-very/",
+				
+				"content_html": "<p>After a couple of (very productive) months using Claude code with Claude Max subscription I&rsquo;ve decided to give GPT 5.3 Codex a try with OpenAI&rsquo;s max subscription. It feels like a break up. Is that weird? I have to pack up all of Claude&rsquo;s stuff and put it out on the stoop while Codex moves in.</p>\n",
+				"content_text": "After a couple of (very productive) months using Claude code with Claude Max subscription I've decided to give GPT 5.3 Codex a try with OpenAI's max subscription. It feels like a break up. Is that weird? I have to pack up all of Claude's stuff and put it out on the stoop while Codex moves in. \n",
+				"date_published": "2026-02-21T09:43:12-08:00",
+				"url": "https://leo.fm/2026/02/21/after-a-couple-of-very/"
+			},
+			{
 				"id": "http://leo.micro.blog/2026/02/19/life-is-full-of-empty/",
 				"title": "Life is Full of Empty Boats",
 				"content_html": "<p>I love the &ldquo;<a href=\"https://thewisdomdaily.com/how-the-empty-boat-parable-can-help-control-your-anger/\">empty boat</a>&rdquo; philosophy from the 4th century BCE Taoist Chang-tzu.</p>\n<blockquote>\n<p>[!quote] A man’s riding his boat in a river. Suddenly another boat strikes his own–but there’s nobody in the other boat. It’s an Empty Boat. The man doesn’t get irritated or bewildered; he critically assesses the situation and decides how to move around the Empty Boat and get across the river. But if there were somebody in the boat–well, then the man becomes overcome with anger. He shouts and curses, pinning blame on his assailant, demanding payments and solutions.</p>\n</blockquote>\n<p>Do we get mad when an empty boat runs into ours? No because there&rsquo;s no one to blame. Of course the temptation is to ascribe blame. To assume someone is wronging you, which leads to resentment which eats you from the inside out. An empty boat is just that - empty, intentionless. There&rsquo;s no one to blame. Life is full of empty boats. Relax.</p>\n",
@@ -34,7 +42,7 @@
 				"id": "http://leo.micro.blog/2026/02/08/watching-the-superbowl-while-waiting/",
 				"title": ",Services",
 				"content_html": "<p>Watching the Superbowl while waiting for the Hellman&rsquo;s ad (and my son&rsquo;s half-second appearance in the background) and vibe coding a TUI to handle all the systemd services on my system. I was able to push it to Github faster than the Patriots could lose the game.</p>\n<p><a href=\"https://github.com/leolaporte/comma-services\">github.com/leolaport&hellip;</a> (I&rsquo;ve started naming of all my command line apps with a comma prefix per <a href=\"https://rhodesmill.org/brandon/2009/commands-with-comma/\">Brandon Rhodes</a>).</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Watching the Superbowl while waiting for the Hellman's ad (and my son's half-second appearance in the background) and vibe coding a TUI to handle all the systemd services on my system. I was able to push it to Github faster than the Patriots could lose the game. \n\n[github.com/leolaport...](https://github.com/leolaporte/comma-services) (I've started naming of all my command line apps with a comma prefix per [Brandon Rhodes](https://rhodesmill.org/brandon/2009/commands-with-comma/)).\n\n<img src=\"uploads/2026/henry-hellmans.png\">\n",
+				"content_text": "Watching the Superbowl while waiting for the Hellman's ad (and my son's half-second appearance in the background) and vibe coding a TUI to handle all the systemd services on my system. I was able to push it to Github faster than the Patriots could lose the game. \n\n[github.com/leolaport...](https://github.com/leolaporte/comma-services) (I've started naming of all my command line apps with a comma prefix per [Brandon Rhodes](https://rhodesmill.org/brandon/2009/commands-with-comma/)).\n\n<img src=\"https://cdn.uploads.micro.blog/871/2026/henry-hellmans.png\">\n",
 				"date_published": "2026-02-08T19:13:47-08:00",
 				"url": "https://leo.fm/2026/02/08/watching-the-superbowl-while-waiting/",
 				"tags": ["Photos","Tech","Coding","AI","salt_hank"]
@@ -51,7 +59,7 @@
 				"id": "http://leo.micro.blog/2026/01/23/162301/",
 				
 				"content_html": "<p>Fuck ICE.</p>\n<p><a href=\"https://www.theguardian.com/us-news/2026/jan/21/ice-arrests-five-year-old-boy-minnesota\">www.theguardian.com/us-news/2&hellip;</a></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Fuck ICE. \n\n[www.theguardian.com/us-news/2...](https://www.theguardian.com/us-news/2026/jan/21/ice-arrests-five-year-old-boy-minnesota)\n\n<img src=\"uploads/2026/1536.png\" width=\"450\" height=\"600\" alt=\"A child in a blue hat with ears and a checkered jacket with a backpack being arrested by ICE. \">\n",
+				"content_text": "Fuck ICE. \n\n[www.theguardian.com/us-news/2...](https://www.theguardian.com/us-news/2026/jan/21/ice-arrests-five-year-old-boy-minnesota)\n\n<img src=\"https://cdn.uploads.micro.blog/871/2026/1536.png\" width=\"450\" height=\"600\" alt=\"A child in a blue hat with ears and a checkered jacket with a backpack being arrested by ICE. \">\n",
 				"date_published": "2026-01-23T16:23:01-08:00",
 				"url": "https://leo.fm/2026/01/23/162301/",
 				"tags": ["Photos"]
