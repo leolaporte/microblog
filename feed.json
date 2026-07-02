@@ -7,6 +7,15 @@
 	"items": [
 		
 			{
+				"id": "http://leo.micro.blog/2026/07/02/i-cant-decide-if-this/",
+				
+				"content_html": "<p>I can’t decide if this is aspirational or just plain nuts.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "I can’t decide if this is aspirational or just plain nuts. \n\n<img src=\"uploads/2026/img-0940.jpg\" width=\"600\" height=\"600\" alt=\"A package of three dozen pickleballs \">\n",
+				"date_published": "2026-07-02T15:23:02-07:00",
+				"url": "https://leo.fm/2026/07/02/i-cant-decide-if-this/",
+				"tags": ["Photos"]
+			},
+			{
 				"id": "http://leo.micro.blog/2026/06/29/have-you-ever-started-whistling/",
 				
 				"content_html": "<p>Have you ever started whistling a song without knowing what the song was until you hit the chorus? Well I just did. The brain is a weird and wonderful thing.</p>\n",
