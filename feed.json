@@ -7,6 +7,24 @@
 	"items": [
 		
 			{
+				"id": "http://leo.micro.blog/2026/07/11/messing-around-with-my-ai/",
+				
+				"content_html": "<p>Messing around with my AI agent, Quicksilver, while waiting for Fable to re-write our entire ad sales workflow and I came up with this, using ShadoW-Shinigami&rsquo;s <a href=\"https://github.com/ShadoW-Shinigami/lyric-video-director\">Hermes skill</a> for adding video to Suno songs.</p>\n<p><a href=\"https://youtu.be/Jgxch4erMa4?si=3YHalBRfTR-ofVsO\">youtu.be/Jgxch4erM&hellip;</a></p>\n<p>Enjoy!</p>\n",
+				"content_text": "Messing around with my AI agent, Quicksilver, while waiting for Fable to re-write our entire ad sales workflow and I came up with this, using ShadoW-Shinigami's [Hermes skill](https://github.com/ShadoW-Shinigami/lyric-video-director) for adding video to Suno songs. \r\n\r\n[youtu.be/Jgxch4erM...](https://youtu.be/Jgxch4erMa4?si=3YHalBRfTR-ofVsO)\r\n\r\nEnjoy!\r\n\r\n",
+				"date_published": "2026-07-11T12:39:04-07:00",
+				"url": "https://leo.fm/2026/07/11/messing-around-with-my-ai/",
+				"tags": ["AI","Songs","Video"]
+			},
+			{
+				"id": "http://leo.micro.blog/2026/07/03/such-a-wonderful-moment-thanks/",
+				
+				"content_html": "<p>Such a wonderful moment. Thanks T&amp;T for asking me to officiate. It&rsquo;s was a true honor.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Such a wonderful moment. Thanks T&T for asking me to officiate. It's was a true honor. \n\n<img src=\"uploads/2026/gemini-generated-image-z55gwpz55gwpz55g.jpg\" width=\"600\" height=\"334\" alt=\"A joyful crowd in Madison Square Garden watches as a Leo, a woman in a wedding dress, and a football player pose for a selfie in front of a sign that reads Just Married: Taylor & Travis.\">\n",
+				"date_published": "2026-07-03T19:48:07-07:00",
+				"url": "https://leo.fm/2026/07/03/such-a-wonderful-moment-thanks/",
+				"tags": ["Photos"]
+			},
+			{
 				"id": "http://leo.micro.blog/2026/07/03/omg-cape-verde/",
 				
 				"content_html": "<p>OMG CAPE VERDE!</p>\n",
